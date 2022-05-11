@@ -1,11 +1,11 @@
 [package]
 name = "self-update"
-version = "0.1.0-1"
+version = "0.1.0-2"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-self_update = { version = "0.30.0", features = ["archive-zip", "rustls"] }
+self_update = { version = "0.30.0", features = ["archive-zip", "rustls", "compression-zip-deflate"] }
 anyhow = "1.0"
 
